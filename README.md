@@ -9,7 +9,7 @@ This neural network predicts whether or not a movie review has a positive or neg
 Feel free to further tune the hyperparameters or build upon the model!
 
 ## The Dataset
-The dataset is built into Tensorflow and includes movie reviews (as inputs) and their corresponding tone (negative or positive, encoded as 0 and 1 respectively). As part of data preprocessing, each input string is standardized to a length of 250 words (padded with zeroes) and comes preencoded.
+The dataset is built into Tensorflow and includes movie reviews (as inputs) and their corresponding tone (negative or positive, encoded as 0 and 1 respectively). As part of data preprocessing, each input string is standardized to a length of 250 words (padded with zeros) and comes pre-encoded.
 
 ## Libraries
 This neural network was created with the help of the Tensorflow library.
