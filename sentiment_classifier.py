@@ -130,6 +130,6 @@ print("   - Input: " + sample_text_positive)
 print("   - " + predict(sample_text_positive))
 
 sample_text_negative = "That movie sucked. I hated it. Wouldn't watch it again."
-print("\nNegative Data Sample:")
+print("\nNegative Data Sample (From User Input):")
 print("   - Input: " + sample_text_negative)
 print("   - " + predict(sample_text_negative))
