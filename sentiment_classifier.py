@@ -125,7 +125,7 @@ print(f"   - Model's Prediction ({cert}% certainty): {predicted_class} ({classes
 
 # Sample input data predictions
 sample_text_positive = "That movie was good! I would definitely watch it again!"
-print("\nPositive Data Sample:")
+print("\nPositive Data Sample (From User Input):")
 print("   - Input: " + sample_text_positive)
 print("   - " + predict(sample_text_positive))
 
